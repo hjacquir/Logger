@@ -35,6 +35,8 @@ class Level
     );
 
     /**
+     * Return the level name mapped by its level
+     *
      * @param integer $logLevel
      *
      * @return string
@@ -61,6 +63,8 @@ class Level
     }
 
     /**
+     * Return all levels
+     *
      * @return array
      */
     public static function getLevels()
